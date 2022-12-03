@@ -14,23 +14,23 @@ const BottomUp = ({ cardOne, cardTwo }: BottomUpProp) => {
 
 	useEffect(() => {
 		const ctx = gsap.context(() => {
-		  // Target the two specific elements we have asigned the animate class
-		  gsap.fromTo(
-			cardOneRef.current,
-			{
-			  rotate: -20,
-			},
-			{
-			  rotate: 0,
-			  transformOrigin: "bottom center",
-			  ease: "bounce",
-			  duration: 0.75,
-			}
-		  );
+			// Target the two specific elements we have asigned the animate class
+			gsap.fromTo(
+				cardOneRef.current,
+				{
+					rotate: -20,
+				},
+				{
+					rotate: 0,
+					transformOrigin: "bottom center",
+					ease: "bounce",
+					duration: 0.75,
+				}
+			);
 		}, rootElement); // <- Scope!
-	
+
 		return () => ctx.revert();
-	  }, [cardTwo]);
+	}, [cardTwo]);
 	return (
 		<Box ref={rootElement}>
 			<Box

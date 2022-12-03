@@ -14,7 +14,7 @@ const Header = () => {
 			top="2.5rem"
 			style={{ left: "50%", transform: "translate(-50%)" }}
 			width="100%"
-			maxW={["350px", "690px",  "690px", "950px", "1150px"]}
+			maxW={["350px", "690px", "690px", "950px", "1150px"]}
 			mx="auto"
 			px="2rem"
 			py="3rem"
