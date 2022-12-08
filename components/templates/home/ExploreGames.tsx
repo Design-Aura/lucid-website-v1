@@ -56,7 +56,7 @@ const gameData: ExploreGamesProps[] = [
 	{
 		id: 4,
 		img: "/assets/icons/closer-to.svg",
-		title: "Closer to God",
+		title: "Holy Grill",
 		description: "for Christian and Muslim practices",
 		cardOne: "/assets/images/bottom-up-card-one.svg",
 		cardTwo: "/assets/images/bottom-up-card-two.svg",
@@ -67,8 +67,8 @@ const gameData: ExploreGamesProps[] = [
 	{
 		id: 5,
 		img: "/assets/icons/game-5.svg",
-		title: "Game 5",
-		description: "description",
+		title: "Five pillars",
+		description: "five pillars is the Muslim game",
 		cardOne: "/assets/images/game-5-card-one.svg",
 		cardTwo: "/assets/images/game-5-card-two.svg",
 		cardThree: "/assets/images/game-5-card-three.svg",
